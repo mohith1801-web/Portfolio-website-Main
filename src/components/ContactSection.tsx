@@ -20,10 +20,10 @@ const ContactSection = () => {
         >
           <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-2">Contact</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Let's work together
+            Get in touch
           </h2>
           <p className="text-muted-foreground mb-12 max-w-lg mx-auto">
-            I'm actively seeking internship and collaboration opportunities. Feel free to reach out!
+            Feel free to reach out for collaborations, learning opportunities, or just to say hello!
           </p>
         </motion.div>
 
