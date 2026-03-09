@@ -5,9 +5,6 @@ const Footer = () => {
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} Mohith R. All rights reserved.
         </p>
-        <p className="text-xs text-muted-foreground/60">
-          Built with React & TypeScript
-        </p>
       </div>
     </footer>
   );
