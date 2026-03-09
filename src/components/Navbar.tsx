@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="font-display text-xl font-bold text-foreground tracking-tight">
-          Mohith <span className="text-accent">R</span>
+          <span className="text-accent">M</span>ohith <span className="text-accent">R</span>
         </button>
 
         {/* Desktop */}
