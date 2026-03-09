@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Textiles E-Cart",
     description:
-      "A full-featured e-commerce platform for a real textiles business. Built with the MERN stack featuring product catalogs, shopping cart, user authentication, and order management.",
+      "A full-featured e-commerce platform for a textiles business featuring product catalogs, shopping cart, user authentication, and order management.",
     tags: ["React", "Node.js", "MongoDB", "Express"],
     github: "https://github.com/mohith1801-web/",
   },

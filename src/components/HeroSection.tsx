@@ -28,7 +28,7 @@ const HeroSection = () => {
             Mohith R
           </h1>
           <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-            Pre-final year Computer Science student at Panimalar Engineering College, passionate about crafting modern, scalable web applications.
+            Pre-final year Computer Science student at Panimalar Engineering College, passionate about learning and building modern web applications.
           </p>
 
           {/* Social links */}
