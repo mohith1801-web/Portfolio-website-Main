@@ -39,8 +39,7 @@ const AboutSection = () => {
             Driven by curiosity, built on code.
           </h2>
           <p className="text-muted-foreground max-w-2xl leading-relaxed mb-14">
-            I'm Mohith R — a computer science student with a hands-on approach to software engineering. 
-            I thrive on turning ideas into polished, functional web applications, from pixel-perfect UIs to robust APIs.
+            I'm Mohith R — a pre-final year Computer Science student at Panimalar Engineering College with a strong foundation from my Diploma in CSE at Panimalar Polytechnic College. I'm passionate about building end-to-end web applications and have hands-on experience with the MERN stack. I enjoy solving real-world problems through clean, maintainable code — from crafting pixel-perfect user interfaces to designing robust backend APIs. Currently focused on deepening my skills in full stack development and contributing to meaningful projects.
           </p>
         </motion.div>
 
