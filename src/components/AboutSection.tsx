@@ -4,8 +4,13 @@ import { GraduationCap, Code, Briefcase } from "lucide-react";
 const highlights = [
   {
     icon: GraduationCap,
-    title: "Education",
-    text: "B.E. Computer Science, Panimalar Engineering College — Pre-final year",
+    title: "Diploma — CSE",
+    text: "Diploma in Computer Science Engineering from Panimalar Polytechnic College",
+  },
+  {
+    icon: GraduationCap,
+    title: "B.E. — CSE",
+    text: "Bachelor of Engineering in Computer Science at Panimalar Engineering College — Pre-final year",
   },
   {
     icon: Code,
@@ -34,12 +39,11 @@ const AboutSection = () => {
             Driven by curiosity, built on code.
           </h2>
           <p className="text-muted-foreground max-w-2xl leading-relaxed mb-14">
-            I'm Mohith R — a computer science student with a hands-on approach to software engineering. 
-            I thrive on turning ideas into polished, functional web applications, from pixel-perfect UIs to robust APIs.
+            I'm Mohith R — a pre-final year Computer Science student at Panimalar Engineering College with a strong foundation from my Diploma in CSE at Panimalar Polytechnic College. I'm passionate about building end-to-end web applications and have hands-on experience with the MERN stack. I enjoy solving real-world problems through clean, maintainable code — from crafting pixel-perfect user interfaces to designing robust backend APIs. Currently focused on deepening my skills in full stack development and contributing to meaningful projects.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {highlights.map((item, i) => (
             <motion.div
               key={item.title}

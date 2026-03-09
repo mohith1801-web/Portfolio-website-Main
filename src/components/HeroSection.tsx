@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -25,7 +25,7 @@ const HeroSection = () => {
             Full Stack Developer
           </p>
           <h1 className="font-display text-5xl md:text-7xl font-bold text-primary-foreground leading-tight mb-6">
-            Mohith <span className="text-gold-gradient">R</span>
+            <span className="text-gold-gradient">M</span>ohith <span className="text-gold-gradient">R</span>
           </h1>
           <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
             Pre-final year Computer Science student at Panimalar Engineering College, passionate about crafting modern, scalable web applications.
@@ -62,14 +62,6 @@ const HeroSection = () => {
 
         </motion.div>
 
-        {/* Scroll indicator */}
-        <motion.div
-          className="absolute bottom-10 left-1/2 -translate-x-1/2"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ repeat: Infinity, duration: 2 }}
-        >
-          <ArrowDown className="text-primary-foreground/40" size={24} />
-        </motion.div>
       </div>
     </section>
   );
