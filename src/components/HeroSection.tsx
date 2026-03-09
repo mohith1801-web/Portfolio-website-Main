@@ -62,14 +62,6 @@ const HeroSection = () => {
 
         </motion.div>
 
-        {/* Scroll indicator */}
-        <motion.div
-          className="absolute bottom-10 left-1/2 -translate-x-1/2"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ repeat: Infinity, duration: 2 }}
-        >
-          <ArrowDown className="text-primary-foreground/40" size={24} />
-        </motion.div>
       </div>
     </section>
   );
