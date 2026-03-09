@@ -25,10 +25,10 @@ const HeroSection = () => {
             Full Stack Developer
           </p>
           <h1 className="font-display text-5xl md:text-7xl font-bold text-primary-foreground leading-tight mb-6">
-            <span className="text-gold-gradient">M</span>ohith <span className="text-gold-gradient">R</span>
+            Mohith R
           </h1>
           <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-            Pre-final year Computer Science student at Panimalar Engineering College, passionate about crafting modern, scalable web applications.
+            Pre-final year Computer Science student at Panimalar Engineering College, passionate about learning and building modern web applications.
           </p>
 
           {/* Social links */}
