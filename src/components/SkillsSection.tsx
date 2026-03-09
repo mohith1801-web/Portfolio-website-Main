@@ -61,21 +61,9 @@ const SkillsSection = () => {
               <h3 className="font-display text-lg font-semibold text-foreground mb-6">{group.category}</h3>
               <div className="space-y-5">
                 {group.skills.map((skill) => (
-                  <div key={skill.name}>
-                    <div className="flex items-center justify-between mb-1.5">
-                      <span className="text-sm font-medium text-foreground">{skill.name}</span>
-                      <span className="text-xs text-muted-foreground">{skill.level}%</span>
-                    </div>
-                    <div className="h-2 rounded-full bg-border overflow-hidden">
-                      <motion.div
-                        className="h-full rounded-full gold-gradient"
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8, ease: "easeOut" }}
-                      />
-                    </div>
-                  </div>
+                  <span key={skill.name} className="inline-block px-4 py-2 bg-card border border-border rounded-md text-sm font-medium text-foreground shadow-card">
+                    {skill.name}
+                  </span>
                 ))}
               </div>
             </motion.div>
