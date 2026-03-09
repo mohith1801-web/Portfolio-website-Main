@@ -60,12 +60,6 @@ const HeroSection = () => {
             </a>
           </div>
 
-          <a
-            href="mailto:mohithraja1801@gmail.com"
-            className="inline-block px-8 py-3.5 rounded-md gold-gradient text-accent-foreground font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity shadow-corporate"
-          >
-            Get In Touch
-          </a>
         </motion.div>
 
         {/* Scroll indicator */}
