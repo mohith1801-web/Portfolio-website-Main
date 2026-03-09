@@ -31,14 +31,6 @@ const Navbar = () => {
               </button>
             </li>
           ))}
-          <li>
-            <a
-              href="mailto:mohithraja1801@gmail.com"
-              className="inline-block px-5 py-2 text-sm font-semibold rounded-md bg-accent text-accent-foreground hover:opacity-90 transition-opacity"
-            >
-              Hire Me
-            </a>
-          </li>
         </ul>
 
         {/* Mobile toggle */}

@@ -59,7 +59,7 @@ const SkillsSection = () => {
               transition={{ duration: 0.5, delay: gi * 0.12 }}
             >
               <h3 className="font-display text-lg font-semibold text-foreground mb-6">{group.category}</h3>
-              <div className="space-y-5">
+              <div className="flex flex-wrap gap-3">
                 {group.skills.map((skill) => (
                   <span key={skill.name} className="inline-block px-4 py-2 bg-card border border-border rounded-md text-sm font-medium text-foreground shadow-card">
                     {skill.name}
