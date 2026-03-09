@@ -4,8 +4,13 @@ import { GraduationCap, Code, Briefcase } from "lucide-react";
 const highlights = [
   {
     icon: GraduationCap,
-    title: "Education",
-    text: "B.E. Computer Science, Panimalar Engineering College — Pre-final year",
+    title: "Diploma — CSE",
+    text: "Diploma in Computer Science Engineering from Panimalar Polytechnic College",
+  },
+  {
+    icon: GraduationCap,
+    title: "B.E. — CSE",
+    text: "Bachelor of Engineering in Computer Science at Panimalar Engineering College — Pre-final year",
   },
   {
     icon: Code,
